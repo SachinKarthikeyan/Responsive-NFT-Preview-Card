@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 300px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+}
+
+.card-img {
+    position: relative;
+    top: 15px;
+    left: 15px;
+    height: 270px;
+    width: 270px;
+    border-radius: 10px;
+}
+
+.card-title {
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    transition: all 0.2s ease-in;
+}
+
+.card-title:hover {
+    color: #00FFF8;
+    cursor: pointer;
+}
+
+.card-con {
+    margin-left: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+}
+
+.list {
+    position: relative;
+    top: 5px;
+    right: 20px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+#span1 {
+    position: relative;
+    bottom: 3px;
+    color: #00FFF8;
+    font-family: 'Outfit', sans-serif;
+    font-size: 13px;
+}
+
+#span2 {
+    position: relative;
+    bottom: 3.5px;
+    color: #8BACD9;
+    font-family: 'Outfit', sans-serif;
+    font-size: 13px;
+}
+
+#line {
+    width: 250px;
+    margin-top: 20px;
+    border: 1px solid hsl(215, 32%, 27%);
+    border-radius: 5px;
+}
+
+.creator {
+    position: relative;
+    bottom: 5px;
+    right: 18px;
+}
+
+.cr-class {
+    display: flex;
+    list-style-type: none;
+}
+
+.avatar {
+    height: 25px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.cr-name-1 {
+    position: relative;
+    bottom: 10px;
+    left: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+}
+
+#cr {
+    color: #fff;
+    transition: all 0.2s ease-in;
+}
+
+#cr:hover {
+    color: #00FFF8;
+    cursor: pointer;
+}
+
+.overlay {
+    position: absolute;
+    transition: all 0.3s ease;
+    opacity: 0;
+    background-color: #9bcd9b;
+}
+
+.container:hover .overlay {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.container:hover svg {
+    opacity: 1!important;
+}
+
+.overlay>svg {
+    position: relative;
+    top: 40%;
+    left: 42%;
+}
+
+.overlayFade {
+    height: 270px;
+    width: 270px;
+    top: 14px;
+    left: 15px;
+    border-radius: 10px;
+    background-color: hsl(178, 100%, 50%);
+}
